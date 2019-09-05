@@ -1,0 +1,10 @@
+sudo yum update -y
+sudo yum install git
+git config --global user.name "USER_NAME" //setting up git account
+git config --global user.email "email"
+git config --list //config status
+git clone "url from github" //to clone/download github code(files)
+git status //to check whether any files are ready to add or commit
+git add "file_name" //add the file to git
+git commit -m "Any message you wish to give" file_name
+git push -u origin master //push the file to you github account
